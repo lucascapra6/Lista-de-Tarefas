@@ -1,0 +1,98 @@
+body {
+    background-image: linear-gradient(to right, #f2d5bbc5,#F2D399, #F2D5BB , #F2D399, #f2d5bbc5 );
+    text-align: center;
+    margin: auto;
+    color: #401801;
+}
+
+#iconMostrarInputTexto {
+    border-radius: 300px;
+    width: 50px;
+    height: 50px;
+    background-color: #733b0a6b;
+    font-size: 30px;
+    color:#401801;
+}
+#apagarTodasTarefas {
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #730a0a9f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#401801;
+}
+.addTarefa {
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    height: 25px;
+    background-color: #c0c0c0c5;
+}
+input[type='text'] {
+    display: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    height: 30px;
+    font: inherit;
+    background-color: white;
+}
+.listaDeTarefas {
+    background-color: rgba(235, 235, 106, 0);
+   text-align: justify;
+   width: 380px;
+   margin: auto;
+}
+.tarefaCriada {
+    font-family:Arial, Helvetica, sans-serif ;
+    height: auto;
+    background-color:#F2F2F2;
+    width: 300;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font: 20px "Arial";
+    margin:auto;
+    margin-top: 40px;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+#fecharTarefa {
+    position:absolute;
+    background-color: rgba(194, 99, 104, 0.795);
+    box-shadow: 1px 1px 1px black ;
+    margin-left: 355px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #401801;
+}
+
+
+.criarTarefa {
+    word-wrap: break-word;
+}
+
+.tarefaCriada> input[type='button'],
+.tarefaCriada > input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    font: inherit;
+}
+
+
+
+
+.tarefaCriada:hover {
+    cursor: pointer;
+    transition: all .5s ease;
+    background-color: #b8795436;
+}
+
